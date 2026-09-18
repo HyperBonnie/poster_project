@@ -28,7 +28,6 @@ body {
     top:50px;
     left: 50%;
     transform: translateX(-50%);
-    background-position: center top;
 }
 #moon {
     width: 150px;
@@ -37,7 +36,6 @@ body {
     top: 25px;
     left: 41%;
     transform: translateX(-50%);
-    background: transparent;
     z-index: 1;
     cursor:pointer;
 }
@@ -52,7 +50,7 @@ body {
     transition: opacity 0.4s ease;
     z-index: 2;
     position: absolute;
-  bottom: 42px;
+  bottom: 50px;
   left: 50%;
   transform: translateX(-50%);
   color: #333;
@@ -63,5 +61,6 @@ body {
     opacity: 1;
 }
 #题目 {font-family: "Inter", sans-serif;
+    font-style:bold;
   
 }
